@@ -1,0 +1,24 @@
+{
+
+	//required
+	"manifest_version":2,
+	"name":"Notepad",
+	"version":"1.0",
+
+	//recommanded
+	"description":"Notepad By haozi (http://haozi.freetzi.com).",
+	"icons":{
+		"16":"icon/icon.png",
+		"64":"icon/icon.png",
+		"128":"icon/icon.png"
+	},
+
+	//optional
+	"author":"haozi",
+	"app":{
+		"background":{
+			"scripts":["background.js"]
+		}
+	},
+	"offline_enabled":true
+}
